@@ -78,7 +78,6 @@ public class MouseSyncClient extends JFrame implements PeerServer.PointerUpdateL
     }
 
     public static void main(String[] args) {
-        StudentInfo.display();
         MouseSyncClient applicationFrame = new MouseSyncClient("Peer Mouse Movement");
         SwingUtilities.invokeLater(new Runnable() {
             @Override
